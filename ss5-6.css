@@ -1,0 +1,28 @@
+div {width: 100px; 
+height: 100px;
+background-color: dimgrey;
+color: aliceblue;
+text-align: center; margin: 20px;
+line-height: 100px;}
+.a:hover {background-color: rgb(34, 33, 33); transition: 1s;}
+.b:hover {background-color: rgb(10, 150, 188);}
+.c:hover {width: 120px;
+height: 120px;
+transition-timing-function: (0.5-0.5-3)}
+.d:hover {width: 80px; height: 80px; transition-timing-function: (5-0.5)}
+.e:hover {transform: rotate(-30deg); transition: 1s;}
+.f:hover {border-radius: 90%; transition: 1s;}
+.i div{background-color: aqua;
+    width: 100px; 
+    height: 70px;
+display: inline-block;}
+.i .g {width: 100px; 
+    height: 70px;
+    background-color: dimgrey;
+    color: aliceblue;
+    text-align: center; margin: 20px;
+    line-height: 70px;
+    position: absolute;
+    left: 8px;}
+.i .g:hover {width: 80px;
+    height: 50px;}
